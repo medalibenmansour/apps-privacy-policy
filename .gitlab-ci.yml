@@ -1,9 +1,0 @@
-pages:
-  stage: deploy
-  script:
-    - echo "Deploying pages"
-  artifacts:
-    paths:
-      - aeterna
-  only:
-    - main
